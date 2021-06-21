@@ -1,0 +1,140 @@
+/* Billing Information */
+
+
+.billing_summery {
+    background: #ffffff;
+    border: 1px solid #cacdd8;
+    box-sizing: border-box;
+    border-radius: 5px;
+  }
+  .billing_title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #616161;
+  }
+  .promo_title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 15px;
+    color: #081f32;
+    margin-top: 10px;
+  }
+  .promo_items {
+    display: flex;
+    width: 100%;
+    margin-top: 10px;
+  }
+  .promo_input {
+    width: 100%;
+  }
+  .promo_input input {
+    height: 35px;
+    background: #ffffff;
+    border: 1px solid #dcdcdc;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    outline-style: none;
+    font-size: 14px;
+  }
+  .valid_promo {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 12px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #616161;
+    margin-top: 10px;
+    padding-bottom: 10px;
+  }
+  .apply_btn {
+    padding-left: 15px;
+    margin-top: 4px;
+    align-items: center;
+    justify-content: center;
+  }
+  .apply_btn button {
+    border-radius: 5px;
+    display: block;
+    height: 35px;
+    border: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 15px;
+    color: #ffffff;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .coupon_items {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 15px;
+    color: #081f32;
+    margin-top: 10px;
+  }
+  .cupon_title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #081f32;
+  }
+  .cupon_title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 15px;
+    color: #081f32;
+    margin-top: 10px;
+  }
+  .cupon_value {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 15px;
+    color: #081f32;
+    margin-top: 10px;
+  }
+  .total_payment {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #616161;
+  }
+  .total_amount {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #081f32;
+  }
+  .checkoutBtn button {
+    height: 45px;
+    width: 100%;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 17px;
+    color: #ffffff;
+    border: none;
+  }

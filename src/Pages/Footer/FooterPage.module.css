@@ -1,0 +1,102 @@
+.footer {
+  background: linear-gradient(294.1deg, #5b5b5b 47.29%, #414141 106.97%);
+  border-radius: 10px 10px 0px 0px;
+  padding: 20px 0 10px;
+  position: relative;
+  bottom: 0;
+}
+.footer p {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(255 255 255 / 60%);
+}
+.footer .install {
+  margin-bottom: 12px;
+  font-size: 16px;
+  color: rgb(255 255 255 / 90%);
+}
+.footer .title {
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: rgb(255 255 255 / 45%);
+}
+.footer .storeApp {
+  height: 36px;
+  margin-bottom: 12px;
+  cursor: pointer;
+}
+.footer .storeApp img {
+  object-fit: contain;
+  height: 100%;
+}
+.footer .listContainer {
+  color: rgb(255 255 255 / 60%);
+  list-style: none;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.footer .listContainer li {
+  margin: 2px 0px;
+}
+.footer .listContainer li:hover {
+  color: rgb(255 255 255 / 80%);
+  cursor: pointer;
+}
+
+.footer .address a,
+span {
+  margin-left: 2px;
+  text-decoration: none;
+}
+.footer .payments {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 70%;
+  margin: 40px auto;
+}
+.footer .payments img {
+  width: 45px;
+  height: 30px;
+  border-radius: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+.footer .social svg {
+  width: 32px;
+  height: 32px;
+  border-radius: 16px;
+  padding: 8px;
+  color: white;
+  cursor: pointer;
+  background: gray;
+}
+
+.footer .copyWrite {
+  text-align: center;
+  color: rgb(255 255 255 / 30%);
+  list-style: none;
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 30px;
+}
+
+/* Responsive part */
+
+@media screen and (max-width: 991px) {
+  .footerContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .footerInstall {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

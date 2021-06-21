@@ -1,0 +1,38 @@
+.order_review {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #cacdd8;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background: #ffffff;
+}
+.order_review_title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #535353;
+  margin: 20px;
+}
+
+.order_review_btn img {
+  width: 15px;
+  height: 10px;
+  margin: 20px;
+}
+
+.order_review_btn img {
+  transition: all 0.25s ease;
+}
+.order_review_btn .rotate {
+  transform: rotate(180deg);
+}
+
+/* .rotate{
+   transform: translate(re);
+ } */
+.order_review_image button {
+  outline-style: none;
+  border-style: none;
+  background: transparent;
+}

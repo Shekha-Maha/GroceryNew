@@ -1,0 +1,87 @@
+.contactInfo {
+  background: #ffffff;
+  border: 1px solid #cacdd8;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 5px;
+}
+.information {
+  margin: 25px;
+}
+.contactInfo .formContainer .singleInput {
+  margin: 0 15px 25px 0px;
+  width: 100%;
+}
+.contactInfo .formContainer .singleInput:last-child {
+  margin-bottom: 0;
+}
+
+.contactInfo .formContainer .displayInputs {
+  display: flex;
+}
+
+.contactTitle {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #616161;
+  margin-bottom: 20px;
+}
+
+.contact {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #616161;
+  padding-bottom: 20px;
+}
+
+.contactNumber input {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 15px;
+  height: 45px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: 1px solid #cacdd8;
+  box-sizing: border-box;
+  border-radius: 5px;
+  outline-style: none;
+  width: 100%;
+}
+
+.emailAddress input {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 15px;
+  height: 45px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: 1px solid #cacdd8;
+  box-sizing: border-box;
+  border-radius: 5px;
+  outline-style: none;
+  width: 100%;
+}
+
+@media (max-width: 991px) {
+  .contactInfo .formContainer .displayInputs {
+    flex-wrap: wrap;
+    margin-top: 30px;
+  }
+  .contactDetails {
+    flex-direction: column;
+  }
+  .contactNumber {
+    width: 100%;
+    margin-top: 25px;
+  }
+  .emailAddress {
+    margin-left: 0px;
+    margin-top: 25px;
+  }
+}

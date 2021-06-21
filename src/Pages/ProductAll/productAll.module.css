@@ -1,0 +1,43 @@
+.productAll{
+    background: #F6F6F6;
+}
+.productAll .selectFormComponents{
+display: flex;
+justify-content: space-around;
+margin-bottom: 40px;
+}
+
+.productAll .selectFormComponents > div{
+    width: 32%;
+}
+
+.productAll .customRow [class*="col-"] {
+    margin-bottom: 10px;
+}
+
+
+.displayCart{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.signleCart{
+    padding: 10px;
+}
+
+
+@media(max-width: 992px) {
+    .displayCart{
+        justify-content: center;
+    }
+    .productAll .selectFormComponents{
+        margin: 0;
+        flex-direction: column;
+        align-items: center;
+    }
+    .productAll .selectFormComponents > div{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}

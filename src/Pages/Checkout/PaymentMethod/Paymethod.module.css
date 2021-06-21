@@ -1,0 +1,167 @@
+/* Payment Method */
+
+.paymentInfo {
+  border: 1px solid #cacdd8;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 15px;
+  background: #ffffff;
+}
+
+.methodTitle {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #616161;
+}
+
+.cashOne {
+  border: 1px solid #cacdd8;
+  box-sizing: border-box;
+  border-radius: 5px;
+  display: flex;
+  padding: 10px;
+  height: 60px;
+  width: 100%;
+  margin-top: 15px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.cashOne:hover {
+  background: #e8fff1;
+  border: 1px solid #219653;
+}
+
+.cashTwo {
+  border: 1px solid #cacdd8;
+  box-sizing: border-box;
+  border-radius: 5px;
+  display: flex;
+  padding: 10px;
+  height: 50px;
+  width: 100%;
+  margin-top: 15px;
+  align-items: center;
+  cursor: pointer;
+}
+.cashTwo:hover {
+  background: #e8fff1;
+  border: 1px solid #219653;
+}
+
+.debit {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #219653;
+}
+
+.time {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #737373;
+}
+.method {
+  height: 30px;
+  width: 45px;
+}
+.cashOn {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #081f32;
+  padding-left: 15px;
+}
+
+@media (max-width: 992px) {
+  .method {
+    height: 25px;
+    width: 35px;
+  }
+  .debit {
+    font-size: 10px;
+  }
+  .time {
+    font-size: 10px;
+  }
+}
+@media (max-width: 460px) {
+  .customer_name {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+  }
+  .last_input {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+  .city_name {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+  }
+  .area {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+
+  .order_list {
+    display: flex;
+    flex-direction: column;
+  }
+  .order_item {
+    margin-top: 15px;
+  }
+  .area {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+  .payment_methods {
+    display: flex;
+    flex-direction: column;
+    height: 120px;
+  }
+  .images {
+    margin-left: -45px;
+  }
+
+  .debit {
+    font-size: 6px;
+  }
+
+  .time {
+    font-size: 5px;
+  }
+
+  .method {
+    height: 15px;
+    object-fit: contain;
+  }
+}
+
+@media (max-width: 320px) {
+  .debit {
+    font-size: 6px;
+  }
+
+  .time {
+    font-size: 5px;
+  }
+
+  .method {
+    height: 15px;
+    object-fit: contain;
+  }
+}

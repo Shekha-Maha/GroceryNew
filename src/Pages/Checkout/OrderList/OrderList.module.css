@@ -1,0 +1,53 @@
+/* Order list */
+
+.order_info {
+    background: #ffffff;
+    border: 1px solid #cacdd8;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 20px;
+  }
+  .order_list {
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid #cacdd8;
+    padding: 10px;
+  }
+  .order_image {
+    flex: 18%;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .order_image img {
+    height: 80px;
+    object-fit: contain;
+  }
+  .order_item {
+    flex: 82%;
+  }
+  
+  .order_item_name {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.01em;
+    color: #081f32;
+  }
+  .order_item_pcs {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #a5a1a1;
+    margin-top: 5px;
+  }
+  .order_item_price {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #081f32;
+    margin-top: 5px;
+  }
+  
